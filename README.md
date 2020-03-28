@@ -44,3 +44,11 @@ A **Rent** is a document (sheet) that holds all the information regarding the re
 
 ### Task | Tasks
 
+## Development Guidelines
+Each Entity includes a single Google Sheet, that includes all elements of that entity. Each individual Entity is located on a separated Sheet.
+For example, Rents has a Google Sheet to store all rents, while each individual rent is represented by a specific Sheet.
+
+The Sheet that holds the Entities (e.g. Rents or Fleet), MUST have the following structure:
+ - 3 Rows for labels. The data MUST start on row 4.
+ - The first column must include the Entity ID (the id of the entity file)
+ - The thrid row labels must be exactly the same as the Entity Object properties, but written with _spaces_ instead of PascalCase.
