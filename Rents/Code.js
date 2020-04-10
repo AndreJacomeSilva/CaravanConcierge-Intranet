@@ -1,2 +1,2 @@
-console.log( PublicHelloWorld() );
-console.log( PrivateHelloWorld() );
+console.log(PublicHelloWorld());
+console.log(PrivateHelloWorld());

@@ -1,0 +1,1 @@
+C:/Users/andre/OneDrive/Documentos/CaravanConcierge/CaravanConcierge-Intranet/Utils/Utils.js

@@ -1,0 +1,19 @@
+{
+  "env": {
+    "es6": true,
+    "googleappsscript/googleappsscript": true,
+    "browser": false,
+    "node": false,
+    "jquery": false
+  },
+  "extends": "airbnb",
+  "rules": {
+    // windows linebreaks when not in production environment
+    "linebreak-style": 0,
+    "max-len": 0,
+    "radix": 0
+  },
+  "plugins": [
+    "googleappsscript"
+  ]
+}
